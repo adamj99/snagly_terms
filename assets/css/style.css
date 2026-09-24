@@ -281,8 +281,8 @@ img {
 
 .hero-shot img {
   width: 100%;
-  max-width: 340px;
-  border-radius: 34px;
+  max-width: 280px;
+  border-radius: 20px;
   box-shadow: var(--shadow-hero);
 }
 
@@ -327,15 +327,19 @@ section {
 
 .feature-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.82fr 1.18fr;
   align-items: center;
-  gap: 56px;
-  padding: 56px 0;
+  gap: 48px;
+  padding: 48px 0;
   border-top: 1px solid var(--border);
 }
 
 .feature-row:first-of-type {
   border-top: none;
+}
+
+.feature-row.reverse {
+  grid-template-columns: 1.18fr 0.82fr;
 }
 
 .feature-row.reverse .feature-copy {
@@ -353,8 +357,8 @@ section {
 
 .feature-shot img {
   width: 100%;
-  max-width: 300px;
-  border-radius: 26px;
+  max-width: 260px;
+  border-radius: 14px;
   box-shadow: var(--shadow-card);
   border: 1px solid var(--border);
 }
@@ -692,14 +696,19 @@ section {
     padding-bottom: 32px;
   }
 
-  .feature-row {
+  .feature-row,
+  .feature-row.reverse {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 24px;
   }
 
   .feature-row.reverse .feature-copy,
   .feature-row.reverse .feature-shot {
     order: initial;
+  }
+
+  .feature-shot img {
+    max-width: 240px;
   }
 
   .card-grid {
