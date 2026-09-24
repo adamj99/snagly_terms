@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><rect width="512" height="512" fill="#FBF1E7"></rect>
-  <path d="M256 96 122 200v212a12 12 0 0 0 12 12h244a12 12 0 0 0 12-12V200z" fill="#C2541B"></path>
-  <path d="M186,242 h14 a10,10 0 0 1 10,10 v14 a10,10 0 0 1 -10,10 h-14 a10,10 0 0 1 -10,-10 v-14 a10,10 0 0 1 10,-10 z" fill="#FBF1E7"></path><path d="M235.5,252 h97 a7.5,7.5 0 0 1 7.5,7.5 v0 a7.5,7.5 0 0 1 -7.5,7.5 h-97 a7.5,7.5 0 0 1 -7.5,-7.5 v0 a7.5,7.5 0 0 1 7.5,-7.5 z" fill="#FBF1E7"></path>
-  <path d="M186,306 h14 a10,10 0 0 1 10,10 v14 a10,10 0 0 1 -10,10 h-14 a10,10 0 0 1 -10,-10 v-14 a10,10 0 0 1 10,-10 z" fill="#FBF1E7"></path><path d="M235.5,316 h97 a7.5,7.5 0 0 1 7.5,7.5 v0 a7.5,7.5 0 0 1 -7.5,7.5 h-97 a7.5,7.5 0 0 1 -7.5,-7.5 v0 a7.5,7.5 0 0 1 7.5,-7.5 z" fill="#FBF1E7"></path>
-  <path d="M186,370 h14 a10,10 0 0 1 10,10 v14 a10,10 0 0 1 -10,10 h-14 a10,10 0 0 1 -10,-10 v-14 a10,10 0 0 1 10,-10 z" fill="#FBF1E7" opacity="0.55"></path><path d="M235.5,380 h57 a7.5,7.5 0 0 1 7.5,7.5 v0 a7.5,7.5 0 0 1 -7.5,7.5 h-57 a7.5,7.5 0 0 1 -7.5,-7.5 v0 a7.5,7.5 0 0 1 7.5,-7.5 z" fill="#FBF1E7" opacity="0.55"></path>
-  <path d="M181 253l9 9 16-18" fill="none" stroke="#C2541B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
-  <path d="M181 317l9 9 16-18" fill="none" stroke="#C2541B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path></svg>

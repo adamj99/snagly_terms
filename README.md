@@ -5,11 +5,13 @@ Marketing site and privacy policy for [Snagly](https://play.google.com/store/app
 ## Structure
 
 - `index.html` — landing page
-- `privacy.html` — privacy policy
+- `privacy/index.html` — privacy policy, served at `/privacy/`
 - `assets/css/style.css` — shared stylesheet
-- `assets/img/` — screenshots and icons
+- `assets/img/` — screenshots (WebP, 2x) and icons
 - `robots.txt`, `sitemap.xml` — SEO
 - `CNAME` — custom domain (`snagly.house`); remove this file if the domain isn't set up yet, and GitHub Pages will fall back to the default `*.github.io` URL
+
+Built from the design handoff in the main Snagly repo's `website/` folder (`WEBSITE.md`, `Snagly Website.dc.html`, `Snagly Privacy Policy.dc.html`) — see that folder for the source of truth on copy and visual spec.
 
 ## Local preview
 
