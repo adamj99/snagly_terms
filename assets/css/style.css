@@ -705,6 +705,12 @@ section h2 {
 .sharing-shots {
   display: flex;
   justify-content: center;
+  /* Default (stretch) would grow the un-offset phone to match the flex
+     line's height, which the second phone's margin-top: 48px inflates
+     — that stretch overrides its own aspect-ratio and squashes the
+     image inside via object-fit: cover, cropping it much more
+     aggressively than the frame border ever did. */
+  align-items: flex-start;
   gap: 18px;
 }
 
@@ -817,6 +823,7 @@ section h2 {
 .privacy-shots {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 18px;
 }
 
