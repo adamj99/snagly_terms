@@ -271,6 +271,13 @@ img {
 }
 
 .phone-frame {
+  /* aspect-ratio below is declared on this element (or a more specific
+     rule for it) and must describe the image area, not the box the
+     border also lives in — content-box keeps the border's width from
+     silently squeezing that ratio, which otherwise forces object-fit:
+     cover into a small centred crop that clips real screenshots'
+     edge-to-edge content (status bar, buttons flush to the frame). */
+  box-sizing: content-box;
   position: relative;
   border-radius: 34px;
   overflow: hidden;
@@ -1065,5 +1072,24 @@ section h2 {
 
   .hero-shots {
     min-height: 420px;
+  }
+
+  /* The nav links have nowhere clean to go at this width without a
+     hamburger menu (ruled out — see design/CLAUDE.md), and every
+     section they link to is one scroll away anyway. Dropping them
+     keeps the header a single row instead of the links wrapping onto
+     their own disconnected line above the logo. */
+  .site-nav {
+    display: none;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-left: 0;
+    justify-content: center;
   }
 }
